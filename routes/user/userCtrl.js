@@ -56,7 +56,7 @@ checkIfItemExistInArray = (itemsKeyAdded, itemId) => {
     return itemsKeyAdded.some(key => {
         return key === itemId
     })
-}
+};
 
 webhook = (req, res) => {
     console.log(req.body);
