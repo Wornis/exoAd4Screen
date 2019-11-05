@@ -5,7 +5,7 @@ module.exports.router = (() => {
     const apiRouter = express.Router();
 
     apiRouter.route('/user/:id').get(userCtrl.getUserViewedArticles);
-    apiRouter.route('/sync_project').post(userCtrl.webhook);
+    apiRouter.route('/').post(userCtrl.webhook);
 
     return apiRouter;
 
