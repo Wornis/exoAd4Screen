@@ -1,4 +1,4 @@
-let express = require('express')
+let express = require('express');
 let userCtrl = require('./routes/user/userCtrl');
 
 module.exports.router = (() => {
