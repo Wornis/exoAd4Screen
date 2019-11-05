@@ -58,4 +58,10 @@ checkIfItemExistInArray = (itemsKeyAdded, itemId) => {
     })
 }
 
-module.exports = {getUserViewedArticles, getViewedItems, checkIfItemExistInArray}
+webhook = (req, res) => {
+    console.log(req.body);
+    return res.sendStatus(200);
+};
+
+
+module.exports = {getUserViewedArticles, getViewedItems, checkIfItemExistInArray, webhook}
