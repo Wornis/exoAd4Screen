@@ -39,7 +39,7 @@ getViewedItems = (userActions) => {
             }
         }
         return true
-    })
+    });
     if (userItems.length === 0) // Si array vide, on retourne un objet vide
         userItems = {}
 
