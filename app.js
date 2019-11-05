@@ -9,4 +9,4 @@ app.use((req, res, next) => console.log(req.body) || next());
 app.use(apiRouter)
 app.listen(process.env.PORT || 3002) // Ecoute sur le port de developpement sinon 3002 en local
 
-module.exports = app
+module.exports = app;
